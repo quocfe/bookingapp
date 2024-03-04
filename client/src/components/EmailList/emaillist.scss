@@ -1,0 +1,45 @@
+.emaillist {
+	background: var(--PrimaryColor);
+	padding: 50px 0;
+	width: 100%;
+	margin-top: 30px;
+	.secContainer {
+		color: var(--whiteColor);
+		width: 700px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		h4 {
+			font-size: 26px;
+			font-weight: 400;
+		}
+		span {
+			color: var(--greyText);
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.input {
+			margin-top: 30px;
+			display: flex;
+			gap: 4px;
+			width: 50%;
+			input {
+				border: none;
+				width: 85%;
+				outline: none;
+				padding: 10px;
+			}
+			button {
+				font-size: 12px;
+				width: 15%;
+				background: var(--SecondColor);
+				border: none;
+				outline: none;
+				padding: 0 10px;
+				color: var(--whiteColor);
+				cursor: pointer;
+			}
+		}
+	}
+}

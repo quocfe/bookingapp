@@ -1,0 +1,64 @@
+:root {
+	--PrimaryColor: #003580;
+	--HoverColor: hsl(26, 90%, 42%);
+	--whiteColor: #fff;
+	--blackColor: hsl(0, 0%, 18%);
+	--textColor: hsl(240, 1%, 48%);
+	--whiteColorDeam: hsl(0, 0%, 93%);
+	--greyBg: hsl(0, 0%, 96%);
+	--greyText: hsl(190, 190%, 190%);
+	--inputColor: hsl(330, 12%, 97%);
+}
+
+.navbar {
+	height: 50px;
+	background: var(--PrimaryColor);
+	.navContainer {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.logo {
+			a {
+				color: var(--whiteColor);
+				text-decoration: none;
+			}
+		}
+		.navButton {
+			margin-right: 20px;
+			padding: 5px 15px;
+			background: var(--whiteColor);
+			color: var(--PrimaryColor);
+			border: 1px solid var(--PrimaryColor);
+			outline: none;
+			border-radius: 8px;
+			cursor: pointer;
+			font-size: 13px;
+			font-weight: 500;
+		}
+	}
+	.userInfoContainer {
+		display: flex;
+		border-radius: 8px;
+		gap: 10px;
+
+		.userInfo {
+			background-color: var(--whiteColor);
+			padding: 5px 10px;
+			border-radius: 8px;
+
+			span {
+				color: var(--PrimaryColor);
+				font-weight: 600;
+				margin-right: 6px;
+			}
+			strong {
+				color: var(--SecondColor);
+			}
+		}
+		button {
+			font-weight: 600;
+			font-size: 20px;
+		}
+	}
+}

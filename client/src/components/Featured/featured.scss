@@ -1,0 +1,39 @@
+.featured {
+	width: 100%;
+	margin-right: -10px;
+	.feaContainer {
+		margin-bottom: 20px;
+
+		.feaItems {
+			display: flex;
+			overflow: hidden;
+			width: 100%;
+			margin-top: 20px;
+			.feaSingle {
+				margin-right: 10px;
+				width: calc((100% / 4) - 10px);
+				flex-shrink: 0;
+				.feaImg {
+					width: 100%;
+					height: 210px;
+					overflow: hidden;
+					border-radius: 8px;
+					margin-bottom: 8px;
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+
+				.feaTitle {
+					font-weight: 600;
+				}
+				span {
+					font-weight: 400;
+					font-size: 13px;
+					color: var(--textColor);
+				}
+			}
+		}
+	}
+}
